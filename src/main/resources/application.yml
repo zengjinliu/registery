@@ -5,9 +5,11 @@ spring:
   application:
     name: registery
 
+
 eureka:
   instance:
     prefer-ip-address: true
     hostname: localhost
   client:
     register-with-eureka: false
+    allow-redirects: false
